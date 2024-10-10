@@ -5,12 +5,12 @@ import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 // import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
 
 const LeftBanner = () => {
-  const handleDownload = () => {
-    const link = document.createElement("a");
-    link.href = "./resume.pdf"; // Path to your resume file in the public folder
-    link.download = "Dharanish_Resume.pdf"; // Name for the downloaded file
-    link.click();
-  };
+  // const handleDownload = () => {
+  //   const link = document.createElement("a");
+  //   link.href = "./resume.pdf"; // Path to your resume file in the public folder
+  //   link.download = "Dharanish_Resume.pdf"; // Name for the downloaded file
+  //   link.click();
+  // };
   const [text] = useTypewriter({
     words: ["Software Developer", "MernStack Developer", "UX Enthusiast"],
     loop: true,
