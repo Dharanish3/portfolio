@@ -21,8 +21,8 @@ const Resume = () => {
             onClick={() =>
               setEducationData(true) &
               setSkillData(false) &
-              setExperienceData(false) &
-              setAchievementData(false)
+              setExperienceData(false) 
+              
             }
             className={`${
               educationData
@@ -36,8 +36,7 @@ const Resume = () => {
             onClick={() =>
               setEducationData(false) &
               setSkillData(true) &
-              setExperienceData(false) &
-              setAchievementData(false)
+              setExperienceData(false) 
             }
             className={`${
               skillData ? "border-designColor rounded-lg" : "border-transparent"
@@ -49,8 +48,7 @@ const Resume = () => {
             onClick={() =>
               setEducationData(false) &
               setSkillData(false) &
-              setExperienceData(true) &
-              setAchievementData(false)
+              setExperienceData(true) 
             }
             className={`${
               experienceData
