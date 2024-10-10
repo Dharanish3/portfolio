@@ -18,8 +18,7 @@ const Projects = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
           title="Responsive UI Website"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des="Created a responsive web application using React and Tailwind CSS, ensuring seamless performance across various devices and screen sizes. Employed modern design principles to enhance user engagement and accessibility."
           src={projectOne}
           githubLink="https://github.com/Dharanish3/Brainwave"
           siteLink="https://guileless-griffin-607775.netlify.app/"
@@ -38,8 +37,7 @@ manage product inventory and user data.
         />
         <ProjectsCard
           title="Booking App"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
+          des=" Developed a user-friendly movie booking application featuring a streamlined interface for easy navigation and integrated email functionality for booking confirmations and updates. Utilized modern web technologies to enhance user experience and ensure reliable communication."
           src={projectThree}
           githubLink="https://github.com/Dharanish3/Booking-App"
           siteLink="https://mellifluous-sawine-545b81.netlify.app/"
