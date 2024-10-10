@@ -1,5 +1,5 @@
-import React from 'react'
-import { FaFacebookF, FaTwitter, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import React from "react";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { contactImg } from "../../assets/index";
 
 const ContactLeft = () => {
@@ -16,33 +16,34 @@ const ContactLeft = () => {
           Full Stack Developer
         </p>
         <p className="text-base text-gray-400 tracking-wide">
-        Enthusiastic and detail-oriented Full Stack Developer with a proven track
-        record of delivering high-quality software solutions.
+          Enthusiastic and detail-oriented Full Stack Developer with a proven
+          track record of delivering high-quality software solutions.
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone: <span className="text-lightText">+91 6382617437</span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">
-          Email: <span className="text-lightText">dharanishsk9698@gmail.com</span>
+          Email:{" "}
+          <span className="text-lightText">dharanishsk9698@gmail.com</span>
         </p>
       </div>
       <div className="flex flex-col gap-4">
         <h2 className="text-base uppercase font-titleFont mb-4">Find me in</h2>
         <div className="flex gap-4">
-        <a href="https://github.com/Dharanish3" target="blank">
-              <span className="bannerIcon">
-                <FaGithub />
-              </span>
-            </a>
-            <a href="https://www.linkedin.com/in/dharanishsk/" target="blank">
-              <span className="bannerIcon">
-                <FaLinkedinIn />
-              </span>
-            </a>
+          <a href="https://github.com/Dharanish3" target="blank">
+            <span className="bannerIcon">
+              <FaGithub />
+            </span>
+          </a>
+          <a href="https://www.linkedin.com/in/dharanishsk/" target="blank">
+            <span className="bannerIcon">
+              <FaLinkedinIn />
+            </span>
+          </a>
         </div>
       </div>
     </div>
   );
-}
+};
 
-export default ContactLeft
+export default ContactLeft;
