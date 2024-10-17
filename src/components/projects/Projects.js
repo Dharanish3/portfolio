@@ -42,7 +42,7 @@ manage product inventory and user data.
           githubLink="https://github.com/Dharanish3/Booking-App"
           siteLink="https://mellifluous-sawine-545b81.netlify.app/"
         />
-        {/* <ProjectsCard
+        <ProjectsCard
           title="Library Management System"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
@@ -51,14 +51,14 @@ manage product inventory and user data.
           siteLink="https://benevolent-kulfi-55e36a.netlify.app"
         />
         <ProjectsCard
-          title="E-commerce Website"
+          title="Authetication"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
           src={projectOne}
-          githubLink=""
-          siteLink=""
+          githubLink="https://github.com/Dharanish3/user-list-"
+          siteLink="https://grand-llama-c2f21c.netlify.app/"
         />
-        <ProjectsCard
+        {/* <ProjectsCard
           title="Chatting App"
           des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
               Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"

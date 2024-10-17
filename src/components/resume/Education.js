@@ -44,17 +44,17 @@ const Education = () => {
           <ResumeCard
             title="Full Stack Development"
             subTitle="Udemy - (2022 - 2023)"
-            result="USA"
+            result="Udemy"
           />
           <ResumeCard
             title="Phthon Advanced Programming"
             subTitle="IIT - (2023 - 2024)"
-            result="MALAYSIA"
+            result="IIT"
            />
           <ResumeCard
             title="UX Foundation"
             subTitle="Google - (Jan 2023 - Apr 2023)"
-            result="Oman"
+            result="Google"
           />
         </div>
       </div>
