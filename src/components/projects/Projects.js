@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree ,projectFour ,projectFive } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -44,17 +44,15 @@ manage product inventory and user data.
         />
         <ProjectsCard
           title="Library Management System"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectThree}
+          des="  A web application developed using the MERN stack (MongoDB, Express.js, React.js, and Node.js) to streamline the process of managing library resources effectively. The system provides a user-friendly interface for both librarians and users."
+          src={projectFour}
           githubLink="https://github.com/Dharanish3/library"
           siteLink="https://benevolent-kulfi-55e36a.netlify.app"
         />
         <ProjectsCard
-          title="Authetication"
-          des=" Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo quibusdam voluptate sapiente voluptatibus harum quidem!"
-          src={projectOne}
+          title="Authentication"
+          des="The Authentication and Userlist project in MERN stack allows users to register, log in, and manage their profiles securely with authentication mechanisms like JWT. It also includes an admin panel to display and manage the list of users from a MongoDB database."
+          src={projectFive}
           githubLink="https://github.com/Dharanish3/user-list-"
           siteLink="https://grand-llama-c2f21c.netlify.app/"
         />
